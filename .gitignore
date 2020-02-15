@@ -1,5 +1,6 @@
 # Maven #
 target/
+chapter1/target/
 
 #IDEA #
 .idea/
