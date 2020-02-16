@@ -6,11 +6,6 @@ import org.apache.commons.collections4.MapUtils;
 import java.util.Collection;
 import java.util.Map;
 
-/**
- * 集合工具类
- * @author wukong
- * @since 2017-06-30.
- */
 public final class CollectionUtil {
 
     /**
