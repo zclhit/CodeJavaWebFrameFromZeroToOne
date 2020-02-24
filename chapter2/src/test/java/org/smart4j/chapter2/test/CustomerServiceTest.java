@@ -1,20 +1,36 @@
 package org.smart4j.chapter2.test;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
+import org.smart4j.chapter2.helper.DatabaseHelper;
 import org.smart4j.chapter2.model.Customer;
 import org.smart4j.chapter2.service.CustomerService;
 
+import javax.xml.crypto.Data;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * CustomerService单元测试
+ * @author wukong
+ * @since 2017-06-29.
+ */
 public class CustomerServiceTest {
 
     private final CustomerService customerService;
 
     public CustomerServiceTest() {
         customerService = new CustomerService();
+    }
+
+    @Before
+    public void init() throws Exception {
+        DatabaseHelper.executeSqlFile("sql/customer_init.sql");
     }
 
     @Test

@@ -215,7 +215,8 @@ public class DatabaseHelper {
         }
         sql += columns.substring(0, columns.lastIndexOf(", ")) + " WHERE id = ?";
 
-        List<Object> paramList = new ArrayList<>(fieldMap.values());
+        List<Object> paramList = new ArrayList<>();
+        paramList.addAll(fieldMap.values());
         paramList.add(id);
         Object[] params = paramList.toArray();
 
@@ -241,7 +242,7 @@ public class DatabaseHelper {
      * @return
      */
     private static <T> String getTableName(Class<T> entityClass) {
-        return entityClass.getSimpleName().toLowerCase();
+        return entityClass.getSimpleName().toUpperCase();
     }
 
     /**

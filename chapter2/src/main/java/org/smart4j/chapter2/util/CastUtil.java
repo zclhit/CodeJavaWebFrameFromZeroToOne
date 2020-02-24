@@ -1,5 +1,10 @@
 package org.smart4j.chapter2.util;
 
+/**
+ * 转型操作工具类
+ * @author wukong
+ * @since 2017-06-30.
+ */
 public final class CastUtil {
 
     /**
