@@ -41,6 +41,18 @@
 			<artifactId>aspectjrt</artifactId>
 			<version>1.9.1</version>
 		</dependency>
+
+		<!-- SLFJ -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+		</dependency>
+		<!-- Shiro -->
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-core</artifactId>
+			<version>1.2.3</version>
+		</dependency>
 	</dependencies>
 
 	<build>
