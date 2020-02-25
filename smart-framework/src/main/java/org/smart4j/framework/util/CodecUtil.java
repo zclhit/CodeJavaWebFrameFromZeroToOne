@@ -1,5 +1,6 @@
 package org.smart4j.framework.util;
 
+import org.apache.commons.codec.digest.DigestUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -9,8 +10,7 @@ import java.net.URLEncoder;
 /**
  * 编码与解码操作工具类
  *
- * @author wukong
- * @since 2017-07-09.
+ * @author zclhit
  */
 public final class CodecUtil {
     private static final Logger logger = LoggerFactory.getLogger(CodecUtil.class);
@@ -45,6 +45,13 @@ public final class CodecUtil {
             throw new RuntimeException(e);
         }
         return target;
+    }
+
+    /**
+     * MD5 Hex
+     */
+    public static String md5Hex(String source) {
+        return DigestUtils.md5Hex(source);
     }
 
 }
