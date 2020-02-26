@@ -1,10 +1,9 @@
-package com.fengquanwei.plugin.security.exception;
+package com.smart.plugin.security.exception;
 
 /**
  * 授权异常（当权限无效时抛出）
  *
- * @author fengquanwei
- * @create 2017/12/11 19:59
+ * @author zclhit
  **/
 public class AuthzException extends RuntimeException {
 

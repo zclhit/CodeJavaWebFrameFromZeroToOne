@@ -1,4 +1,4 @@
-package com.fengquanwei.plugin.security.tag;
+package com.smart.plugin.security.tag;
 
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.tags.PermissionTag;

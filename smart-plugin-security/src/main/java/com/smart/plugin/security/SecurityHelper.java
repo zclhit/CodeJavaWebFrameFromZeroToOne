@@ -1,6 +1,6 @@
-package com.fengquanwei.plugin.security;
+package com.smart.plugin.security;
 
-import com.fengquanwei.plugin.security.exception.AuthcException;
+import com.smart.plugin.security.exception.AuthcException;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;

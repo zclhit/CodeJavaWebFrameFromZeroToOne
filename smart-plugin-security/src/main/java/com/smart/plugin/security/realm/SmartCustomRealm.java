@@ -1,8 +1,8 @@
-package com.fengquanwei.plugin.security.realm;
+package com.smart.plugin.security.realm;
 
-import com.fengquanwei.plugin.security.SecurityConstant;
-import com.fengquanwei.plugin.security.SmartSecurity;
-import com.fengquanwei.plugin.security.password.Md5CredentialsMatcher;
+import com.smart.plugin.security.SecurityConstant;
+import com.smart.plugin.security.SmartSecurity;
+import com.smart.plugin.security.password.Md5CredentialsMatcher;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationException;
 import org.apache.shiro.authz.AuthorizationInfo;

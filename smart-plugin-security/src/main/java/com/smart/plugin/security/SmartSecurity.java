@@ -1,4 +1,4 @@
-package com.fengquanwei.plugin.security;
+package com.smart.plugin.security;
 
 import java.util.Set;
 

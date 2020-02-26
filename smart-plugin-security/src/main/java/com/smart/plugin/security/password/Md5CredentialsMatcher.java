@@ -1,4 +1,4 @@
-package com.fengquanwei.plugin.security.password;
+package com.smart.plugin.security.password;
 
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;

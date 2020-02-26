@@ -1,7 +1,7 @@
-package com.fengquanwei.plugin.security;
+package com.smart.plugin.security;
 
-import com.fengquanwei.plugin.security.realm.SmartCustomRealm;
-import com.fengquanwei.plugin.security.realm.SmartJdbcRealm;
+import com.smart.plugin.security.realm.SmartCustomRealm;
+import com.smart.plugin.security.realm.SmartJdbcRealm;
 import org.apache.shiro.cache.MemoryConstrainedCacheManager;
 import org.apache.shiro.mgt.CachingSecurityManager;
 import org.apache.shiro.mgt.RealmSecurityManager;

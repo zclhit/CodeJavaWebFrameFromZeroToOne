@@ -1,9 +1,9 @@
-package com.fengquanwei.plugin.security;
+package com.smart.plugin.security;
 
 /**
  * 安全功能相关常量
  *
- * @author zchit
+ * @author zclhit
  **/
 public interface SecurityConstant {
     String SMART_SECURITY = "smart.plugin.security.custom.class";

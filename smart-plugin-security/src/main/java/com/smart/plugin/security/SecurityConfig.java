@@ -1,4 +1,4 @@
-package com.fengquanwei.plugin.security;
+package com.smart.plugin.security;
 
 
 import org.smart4j.framework.helper.ConfigHelper;
@@ -7,8 +7,7 @@ import org.smart4j.framework.util.ReflectionUtil;
 /**
  * 安全配置（获取 smart.properties 文件中的配置项）
  *
- * @author fengquanwei
- * @create 2017/12/12 11:01
+ * @author zclhit
  **/
 public class SecurityConfig {
     public static String getRealms() {

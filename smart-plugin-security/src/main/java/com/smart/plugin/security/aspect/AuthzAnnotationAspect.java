@@ -1,7 +1,12 @@
-package com.fengquanwei.plugin.security.aspect;
+package com.smart.plugin.security.aspect;
 
 import com.fengquanwei.plugin.security.annotation.*;
-import com.fengquanwei.plugin.security.exception.AuthzException;
+import com.smart.plugin.security.annotation.Authenticated;
+import com.smart.plugin.security.annotation.HasPermissions;
+import com.smart.plugin.security.annotation.User;
+import com.smart.plugin.security.exception.AuthzException;
+import com.smart.plugin.security.annotation.Guest;
+import com.smart.plugin.security.annotation.HasRoles;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
@@ -15,8 +20,7 @@ import java.lang.reflect.Method;
 /**
  * 授权注解切面
  *
- * @author fengquanwei
- * @create 2017/12/12 14:52
+ * @author zclhit
  **/
 @Aspect(Controller.class)
 public class AuthzAnnotationAspect extends AspectProxy {

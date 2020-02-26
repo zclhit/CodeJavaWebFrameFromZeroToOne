@@ -1,7 +1,7 @@
-package com.fengquanwei.plugin.security.realm;
+package com.smart.plugin.security.realm;
 
-import com.fengquanwei.plugin.security.SecurityConfig;
-import com.fengquanwei.plugin.security.password.Md5CredentialsMatcher;
+import com.smart.plugin.security.SecurityConfig;
+import com.smart.plugin.security.password.Md5CredentialsMatcher;
 import org.apache.shiro.realm.jdbc.JdbcRealm;
 import org.smart4j.framework.helper.DatabaseHelper;
 

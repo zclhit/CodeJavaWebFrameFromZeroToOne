@@ -1,10 +1,9 @@
-package com.fengquanwei.plugin.security.exception;
+package com.smart.plugin.security.exception;
 
 /**
  * 认证异常（当非法访问时抛出）
  *
- * @author fengquanwei
- * @create 2017/12/11 19:59
+ * @author zclhit
  **/
 public class AuthcException extends Exception {
 

@@ -1,4 +1,4 @@
-package com.fengquanwei.plugin.security.annotation;
+package com.smart.plugin.security.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -8,8 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 判断当前用户是否拥有某种角色
  *
- * @author fengquanwei
- * @create 2017/12/12 14:59
+ * @author zclhit
  **/
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
