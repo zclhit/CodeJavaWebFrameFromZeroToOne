@@ -8,8 +8,7 @@ import java.util.Map;
 
 /**
  * 集合工具类
- * @author wukong
- * @since 2017-06-30.
+ * @author changle.c@thoughtworks.com
  */
 public final class CollectionUtil {
 

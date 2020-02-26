@@ -10,8 +10,7 @@ import java.io.InputStreamReader;
 /**
  * 流操作工具类
  *
- * @author wukong
- * @since 2017-07-09.
+ * @author changle.c@thoughtworks.com
  */
 public final class StreamUtil {
     private static final Logger logger = LoggerFactory.getLogger(StreamUtil.class);

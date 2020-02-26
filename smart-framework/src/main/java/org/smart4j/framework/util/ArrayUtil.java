@@ -5,8 +5,7 @@ import org.apache.commons.lang3.ArrayUtils;
 /**
  * 数组工具类
  *
- * @author liuzm@gveoe.cn
- * @since 2017-07-06.
+ * @author changle.c@thoughtworks.com
  */
 public final class ArrayUtil {
 

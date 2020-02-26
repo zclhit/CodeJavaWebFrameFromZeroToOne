@@ -17,8 +17,7 @@ import java.util.jar.JarFile;
 /**
  * 类操作工具类
  *
- * @author liuzm@gveoe.cn
- * @since 2017-07-05.
+ * @author changle.c@thoughtworks.com
  */
 public final class ClassUtil {
     private static final Logger LOGGER = LoggerFactory.getLogger(ClassUtil.class);
@@ -46,6 +45,13 @@ public final class ClassUtil {
             throw new RuntimeException(e);
         }
         return cls;
+    }
+
+    /**
+     * 加载类（默认将初始化类）
+     */
+    public static Class<?> loadClass(String className) {
+        return loadClass(className, true);
     }
 
     /**

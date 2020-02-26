@@ -6,8 +6,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * JSON 工具类
- * @author wukong
- * @since 2017-07-09.
+ * @author changle.c@thoughtworks.com
  */
 public final class JsonUtil {
     private static final Logger logger = LoggerFactory.getLogger(JsonUtil.class);

@@ -5,6 +5,9 @@ import com.fengquanwei.plugin.security.exception.AuthzException;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
+import org.smart4j.framework.annotation.Aspect;
+import org.smart4j.framework.annotation.Controller;
+import org.smart4j.framework.proxy.AspectProxy;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;

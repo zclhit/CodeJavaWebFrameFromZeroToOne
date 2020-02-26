@@ -9,8 +9,7 @@ import java.lang.reflect.Method;
 /**
  * 反射工具类
  *
- * @author changle@thoughtworks.com
- * @since 2017-07-06.
+ * @author changle.c@thoughtworks.com
  */
 public final class ReflectionUtil {
     private static Logger logger = LoggerFactory.getLogger(ReflectionUtil.class);
@@ -29,6 +28,14 @@ public final class ReflectionUtil {
             throw new RuntimeException(e);
         }
         return instance;
+    }
+
+    /**
+     * 创建实例（根据类名）
+     */
+    public static Object newInstance(String className) {
+        Class<?> cls = ClassUtil.loadClass(className);
+        return newInstance(cls);
     }
 
     /**

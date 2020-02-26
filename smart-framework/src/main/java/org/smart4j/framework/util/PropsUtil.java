@@ -10,8 +10,7 @@ import java.util.Properties;
 
 /**
  * 属性文件工具类
- * @author wukong
- * @since 2017-06-30.
+ * @author changle.c@thoughtworks.com
  */
 public final class PropsUtil {
     private static final Logger logger = LoggerFactory.getLogger(PropsUtil.class);

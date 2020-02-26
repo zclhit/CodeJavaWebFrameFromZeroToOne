@@ -10,7 +10,7 @@ import java.net.URLEncoder;
 /**
  * 编码与解码操作工具类
  *
- * @author zclhit
+ * @author changle.c@thoughtworks.com
  */
 public final class CodecUtil {
     private static final Logger logger = LoggerFactory.getLogger(CodecUtil.class);

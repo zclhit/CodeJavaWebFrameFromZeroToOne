@@ -2,8 +2,7 @@ package org.smart4j.framework.util;
 
 /**
  * 转型操作工具类
- * @author wukong
- * @since 2017-06-30.
+ * @author changle.c@thoughtworks.com
  */
 public final class CastUtil {
 
