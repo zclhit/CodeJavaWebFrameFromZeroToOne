@@ -1,6 +1,5 @@
 package com.smart.plugin.security.aspect;
 
-import com.fengquanwei.plugin.security.annotation.*;
 import com.smart.plugin.security.annotation.Authenticated;
 import com.smart.plugin.security.annotation.HasPermissions;
 import com.smart.plugin.security.annotation.User;
